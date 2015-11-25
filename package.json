@@ -1,0 +1,47 @@
+{
+  "name": "generator-deku",
+  "version": "0.1.0",
+  "description": "Scaffold out a deku module",
+  "license": "MIT",
+  "repository": "alonalon/generator-deku",
+  "author": {
+    "name": "Aron Hafner",
+    "email": "aronhafner@gmail.com",
+    "url": "github.com/alonalon"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "boilerplate",
+    "template",
+    "scaffold",
+    "module",
+    "init"
+  ],
+  "dependencies": {
+    "humanize-url": "^1.0.1",
+    "normalize-url": "^1.2.0",
+    "underscore.string": "^3.0.3",
+    "yeoman-generator": "^0.21.1"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "pify": "^2.2.0",
+    "xo": "*",
+    "yeoman-assert": "^2.0.0"
+  },
+  "xo": {
+    "esnext": true,
+    "ignores": [
+      "app/templates/**"
+    ]
+  }
+}
