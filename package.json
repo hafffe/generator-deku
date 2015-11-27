@@ -19,13 +19,16 @@
     "app"
   ],
   "keywords": [
-    "yeoman-generator",
-		"yeoman",
     "boilerplate",
-    "template",
-    "scaffold",
+    "deku",
+    "dekujs",
+    "generator",
+    "init",
     "module",
-    "init"
+    "scaffold",
+    "template",
+    "yeoman",
+    "yeoman-generator"
   ],
   "dependencies": {
     "humanize-url": "^1.0.1",
