@@ -1,7 +1,7 @@
 {
   "name": "generator-deku",
-  "version": "0.2.0",
-  "description": "Scaffold out a deku module",
+  "version": "0.3.0",
+  "description": "Scaffold out a deku component",
   "license": "MIT",
   "repository": "alonalon/generator-deku",
   "author": {
@@ -20,6 +20,7 @@
   ],
   "keywords": [
     "yeoman-generator",
+		"yeoman",
     "boilerplate",
     "template",
     "scaffold",
