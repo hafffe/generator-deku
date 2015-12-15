@@ -1,6 +1,6 @@
 {
   "name": "generator-deku",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scaffold out a deku component",
   "license": "MIT",
   "repository": "alonalon/generator-deku",
