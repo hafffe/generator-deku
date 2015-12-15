@@ -13,7 +13,7 @@ $ npm install --save <%= moduleName %>
 ## Usage
 
 ```js
-import <%= camelModuleName %> from ('<%= moduleName %>');
+import <%= camelModuleName %> from '<%= moduleName %>';
 
 ```
 
