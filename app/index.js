@@ -48,7 +48,6 @@ module.exports = yeoman.generators.Base.extend({
 			mv('editorconfig', '.editorconfig');
 			mv('gitattributes', '.gitattributes');
 			mv('gitignore', '.gitignore');
-			mv('babelrc', '.babelrc');
 			mv('_package.json', 'package.json');
 
 			cb();
