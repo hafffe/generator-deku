@@ -10,14 +10,14 @@ const propTypes = {
 	}
 };
 
-function render({props}) {
+const render = ({props}) => {
 	const {message} = props;
 
 	return (
-			<div class={['Component', props.class]}>
-				{message}
-			</div>
+		<div class={['Component', props.class]}>
+			{message}
+		</div>
 	);
-}
+};
 
 export default {propTypes, render};

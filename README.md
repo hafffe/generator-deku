@@ -1,25 +1,27 @@
 # generator-deku
+
 > Scaffold out a deku module
+
 
 ## Installation
 
 First, install [Yeoman](http://yeoman.io) and generator-deku using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
-```bash
+```
 npm install -g yo
 npm install -g generator-deku
 ```
 
 Then generate your new project:
 
-```bash
-yo deku
 ```
+$ yo deku
+```
+
 
 ## License
 
 MIT © [alonalon](github.com/alonalon)
-
 
 [npm-image]: https://badge.fury.io/js/generator-deku.svg
 [npm-url]: https://npmjs.org/package/generator-deku

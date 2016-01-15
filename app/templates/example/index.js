@@ -1,23 +1,23 @@
 /** @jsx dom */
 import dom from 'magic-virtual-element';
-import {render, tree} from 'deku';
-import Component from '../';
+import {render as r, tree} from 'deku';
+import <%= classModuleName %> from '../';
 
-const App = {
-	initialState() {
-		return {
-			message: 'Deku is awesome!'
-		};
-	},
-
-	render({state}) {
-		const {message} = state;
-
-		return (
-			<Component class="DekuComponent" message={message}/>
-		);
-	}
+const initialState = () => {
+	return {
+		message: 'Deku is awesome!'
+	};
 };
 
+const render = ({state}) => {
+	const {message} = state;
+
+	return (
+		<<%= classModuleName %> class='CustomClass' message={message}/>
+	);
+};
+
+const App = {initialState, render};
 const app = tree(<App/>);
-render(app, document.body);
+
+r(app, document.body);
