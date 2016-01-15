@@ -1,6 +1,6 @@
 # <%= moduleName %>
 
-> My component
+> My deku component
 
 
 ## Install
@@ -13,10 +13,16 @@ $ npm install --save <%= moduleName %>
 ## Usage
 
 ```js
-import <%= camelModuleName %> from '<%= moduleName %>';
+import <%= classModuleName %> from '<%= moduleName %>';
 
+const render = () => {
+	return (
+		<<%= classModuleName %> message='Hello world!'/>
+	);
+};
+
+export default {render};
 ```
-
 
 
 ## License
